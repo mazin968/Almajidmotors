@@ -15,8 +15,8 @@
 'use strict';
 
 const users = [
-  { u: "admin",  p: "Admin1970",  name: "Admin" },
-  { u: "majid",  p: "Oman1970",        name: "Almajid" },
+  { u: "admin",  p: "Oman1970",  name: "Admin" },
+  { u: "mazin968",  p: "Oman1970",        name: "Almajid" },
   // { u: "client1", p: "set-a-password", name: "Client One" },
   // add more lines here...
 ];
