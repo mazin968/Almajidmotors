@@ -1,0 +1,6 @@
+/* POST /api/logout  ->  clears the session cookie */
+'use strict';
+module.exports = function(req, res){
+  res.setHeader('Set-Cookie', 'am_session=; HttpOnly; Path=/; Max-Age=0; SameSite=Lax; Secure');
+  res.status(200).json({ ok:true });
+};
